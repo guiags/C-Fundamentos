@@ -1,4 +1,5 @@
-﻿using System.Globalization;
+﻿using System;
+using System.Globalization;
 using System.Text;
 
 namespace Fundamentos;
@@ -162,5 +163,113 @@ class Program
 
         //Static
         Console.WriteLine(OperacoesMatematicas.AdicionarSem(10, 2));
+
+
+        //8- If, else e else if
+        int numero9 = 15;
+        bool verif = true;
+        if (numero9 > 0 || verif == true)
+        {
+            Console.WriteLine("Positivo");
+        }
+        else if (numero9 == 0 && verif == true)
+        {
+            Console.WriteLine("Zero");
+        }
+        else 
+        {
+            Console.WriteLine("Negativo");
+        }
+        if(verif == true)
+        {
+            Console.WriteLine("Passou");
+        }
+        //Ternario
+        string autor1 = verif == true ? "Guilherme" : "Ana";
+        //Switch
+        int numero10 = 4;
+
+        switch (numero10)
+        {
+            case 0:
+                {
+                    Console.WriteLine("1");
+                }break;
+            case 1:
+                {
+                    Console.WriteLine("2");
+                }break;
+            case >= 2:
+                {
+                    Console.WriteLine("3");
+                }break;
+            default:
+                {
+                    Console.WriteLine("padrao");
+                }break;
+        }
+        string result = numero10 switch
+        {
+            0 => "1",
+            1=> "2",
+            2=> "3",
+            3=> "4",
+            _=> "5"
+        };
+
+        //9- Looping
+        var lista1 = new List<string>() {"Gui", "Ana", "Alice", "Lorde" };
+        for(int i = 0; i < lista1.Count; i++)
+        {
+            Console.WriteLine(lista1[i]);
+        }
+        foreach(var item in lista1)
+        {
+            Console.WriteLine(item);
+        }
+        int numero11 = 0;
+        while(numero11 < 3)
+        {
+            Console.WriteLine(numero11);
+            numero11++;
+        }
+        do
+        {
+            Console.WriteLine("Entrou");
+        } while (numero11 < 3);
+
+
+        //10- Jump
+        numero11 = 0;
+        while (numero11 < 10)
+        {
+            if(numero11 == 3)
+            {
+                break;// Sai do Loop
+            }
+            Console.WriteLine(numero11);
+            numero11++;
+        }
+        numero11 = 0;
+        while (numero11 < 5)
+        {
+            numero11++;
+            if (numero11 == 3)
+            {
+                continue;//Pula a iteração em questão
+            }
+            Console.WriteLine(numero11);
+        }
+        numero11 = 0;
+        while (numero11 < 10)
+        {
+            if (numero11 == 3)
+            {
+                return;// Sai do Loop igual o break
+            }
+            Console.WriteLine(numero11);
+            numero11++;
+        }
+
     }
 }

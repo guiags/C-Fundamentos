@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\guilh\\source\\repos\\Fundamentos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{70BC2C91-5B5E-43B5-9F43-72F70F05B75E}|Fundamentos\\Fundamentos.csproj|c:\\users\\guilh\\source\\repos\\fundamentos\\fundamentos\\carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70BC2C91-5B5E-43B5-9F43-72F70F05B75E}|Fundamentos\\Fundamentos.csproj|solutionrelative:fundamentos\\carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{70BC2C91-5B5E-43B5-9F43-72F70F05B75E}|Fundamentos\\Fundamentos.csproj|c:\\users\\guilh\\source\\repos\\fundamentos\\fundamentos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70BC2C91-5B5E-43B5-9F43-72F70F05B75E}|Fundamentos\\Fundamentos.csproj|solutionrelative:fundamentos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70BC2C91-5B5E-43B5-9F43-72F70F05B75E}|Fundamentos\\Fundamentos.csproj|c:\\users\\guilh\\source\\repos\\fundamentos\\fundamentos\\carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70BC2C91-5B5E-43B5-9F43-72F70F05B75E}|Fundamentos\\Fundamentos.csproj|solutionrelative:fundamentos\\carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{70BC2C91-5B5E-43B5-9F43-72F70F05B75E}|Fundamentos\\Fundamentos.csproj|c:\\users\\guilh\\source\\repos\\fundamentos\\fundamentos\\operacoesmatematicas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -38,12 +38,11 @@
               "RelativeToolTip": "Fundamentos\\Cor.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T09:22:13.686Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T09:22:13.686Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Carro.cs",
               "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\Fundamentos\\Fundamentos\\Carro.cs",
               "RelativeDocumentMoniker": "Fundamentos\\Carro.cs",
@@ -64,18 +63,17 @@
               "RelativeToolTip": "Fundamentos\\OperacoesMatematicas.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAowBUAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T08:52:04.829Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T08:52:04.829Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\Fundamentos\\Fundamentos\\Program.cs",
               "RelativeDocumentMoniker": "Fundamentos\\Program.cs",
               "ToolTip": "C:\\Users\\guilh\\source\\repos\\Fundamentos\\Fundamentos\\Program.cs",
               "RelativeToolTip": "Fundamentos\\Program.cs",
-              "ViewState": "AQIAAJEAAAAAAAAAAAAAAKIAAAAQAAAA",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAcwAsBAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-17T12:26:18.427Z",
               "EditorCaption": ""
