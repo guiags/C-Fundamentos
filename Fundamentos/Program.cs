@@ -272,4 +272,29 @@ class Program
         }
 
     }
+    /*
+     namespace => Organizar as classes dentro do projeto(caixas);
+classe => Molde(Características, propriedades e comportamentos de um objeto);
+função => conjunto de Instruções(Nome de funções) 
+
+Modificadores de acesso:
+public = Qualquer outra classe que tiver instanciado um objeto daquela outra classe poderá utilizar a função
+private = Somente aquela classe poderá utilizar a função
+internal  = Poderá ser usada a função somente as classes dentro do projeto
+static = Faz com que a função de uma classe não precise ser instanciada para acessar os metodos.
+
+var pega o tipo da variavel automaticamente, deve possuir atribuição
+object parecido com var mas n identifica o tipo
+
+Debugar= Criar o break Point e usar F10 para avançar, passar o mouse na variavel, F11 entra na função, Shift F11 sai da função
+
+.net = plataforma composta por varias bibliotecas
+Compilação = C# -> Linguagem intermediaria dll -> CLR Common language runtime(De acordo com o processador)
+jit = Just in time, compila na hora a partir da dll
+gerar projeto no CLI = cmd na pasta -> new console -n olamundo
+executar projeto no CLI = dotnet run
+ajuda = dotnet new --help
+build = verificar se ha erro no projeto ou solution
+http = Protocolo de transferencia hipertexto
+*/
 }
