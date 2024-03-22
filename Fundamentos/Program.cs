@@ -296,5 +296,7 @@ executar projeto no CLI = dotnet run
 ajuda = dotnet new --help
 build = verificar se ha erro no projeto ou solution
 http = Protocolo de transferencia hipertexto
+payload = Todo o conteudo da requisao http
+Rest = modelo arquitetural
 */
 }
